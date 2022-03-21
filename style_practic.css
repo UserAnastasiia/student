@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.info_text p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(61, 59, 59);
+    margin: 0;
+}
+
+
+.card-1 {
+    border: 2px solid green;
+    border-radius: 10px;
+    background:green;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px 20px;
+}
+
+
+.card-2 {
+    border: 2px solid rgb(128, 0, 70);
+    border-radius: 10px;
+    background:rgb(128, 0, 70);
+    padding: 15px 20px;
+}
+
+.card-3 {
+    margin-bottom: 20px;
+}
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 750px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+/* #info-1 {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+} */
+
+image {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);  
+}
+
+.avatar {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    background: #0f141e;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 0;
+  
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: #800046;
+
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.table tr:first-child {
+    background: #000;
+    color: #800046;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.table tr {
+    margin: auto;
+}
+
+.table td:first-child {
+    text-align: left;
+}
+.work {
+    margin-bottom: 0;
+}
+
+.card-3 h2 {
+    text-align: center;
+}
+
+.block input {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+}
+
+.block {
+    display: inline-block;
+    width: 48%
+}
+
+.block:first-child{
+    margin-right: 20px;
+}
+
+.block-2 textarea{
+    width: 100%;
+    border-radius: 5px;   
+}
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.info_text {
+    margin-left: 40px;
+}
+
+.info_text h4 {
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+.info_text h1 {
+    margin-bottom: 35px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 3px;
+    }
+}
